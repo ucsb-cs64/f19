@@ -31,7 +31,7 @@ sections:
 
 cal_dates: >
   [
-    {"label":"F19 1st day of classes", "date":"2019-09-26" },	
+    {"label":"F19 instruction begins", "date":"2019-09-30" },	
     {"label":"Univ Holiday", "date":"2019-11-11" },
     {"label":"Univ Holiday", "date":"2019-11-28" },
     {"label":"Univ Holiday", "date":"2019-11-29" },
