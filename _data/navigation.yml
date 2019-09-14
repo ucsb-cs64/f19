@@ -1,0 +1,30 @@
+production_url: https://ucsb-cs64.github.io
+
+home:
+   title: UCSB CS64
+   url: /
+   baseurl: /f19
+
+
+
+offerings:
+   title: "F19"
+   url: /	
+   baseurl: /f19
+   items:
+      - title: "F19"
+        url: /
+        baseurl: /f19
+
+offering_links:
+  - title: Course Information
+    url: /info_list/
+  - title: Lecture Notes
+    url: /lectures_list/
+  - title: Labs
+    url: /lab_list/
+  - title: Calendar
+    url: /info/calendar
+
+
+

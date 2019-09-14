@@ -1,0 +1,79 @@
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
+
+kramdown:
+  parse_block_html: false
+
+exclude: ['vendor', 'setup.sh', 'jekyll.sh']
+include:
+  - _pages
+
+timezone: America/Los_Angeles
+
+url: https://ucsb-cs64.github.io
+baseurl: "/f19"
+github_url: https://github.com/ucsb-cs64/f19
+
+title: "UCSB CS64"
+course: "CS64"
+qtr: "F19"
+quarter: "Fall 2019"
+
+
+start_week: 1
+start_date: 2019-09-30 00:00:00.00-8:00
+num_weeks: 10
+extra_exam_week: true
+sections:
+
+cal_dates: >
+  [
+    {"label":"F19 1st day of classes", "date":"2019-09-26" },	
+    {"label":"Univ Holiday", "date":"2019-11-11" },
+    {"label":"Univ Holiday", "date":"2019-11-28" },
+    {"label":"Univ Holiday", "date":"2019-11-29" },
+    {"label":"F19 instruction ends", "date":"2019-12-06" },
+    {"label":"F19 finals start", "date":"2019-12-09" },
+    {"label":"F19 finals end", "date":"2019-12-13" },
+    {"label":"F19 qtr ends", "date":"2018-12-13" }
+  ]
+
+collections:
+  lab:
+    output: true
+    permalink: /lab/:path/
+    last_before: false
+  info:
+    output: true
+    permalink: /info/:path/
+  lectures:
+    output: true
+    permalink: /lectures/:path/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: default
+  - 
+    scope:
+      path: ""
+      type: lab
+    values:
+      layout: lab
+  - 
+    scope:
+      path: ""
+      type: info
+    values:
+      layout: info
+  -
+    scope:
+      path: "syllabus.md"
+      type: info
+    values:
+      layout: handout
