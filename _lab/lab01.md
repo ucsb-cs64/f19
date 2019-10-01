@@ -6,8 +6,6 @@ desc: "Setting up your CSIL and Binary Arithmetic 1"
 assigned: 2019-10-02 08:00:00.00-7
 due: 2019-10-09 23:59:59.00-7
 ---
-<h1>Lab 1: Logistics and Binary Representation</h1>
-<hr>
 <p><b>Due Wednesday, October 9th at 11:59:59 PM</b></p>
 
 <h2>Goals for This Week</h2>
@@ -98,13 +96,13 @@ chmod 600 lab1.pdf
   <b>If you partnered with someone (it's OPTIONAL - and NO MORE THAN TWO people can work on one assignment together), record the email address they are using for the class at the top of the assignment. EACH person needs to submit their own assignment!</b> 
 </p>
 
-<p>Your assignment file is a PDF with the questions and blank spaces for the answers. The easiest way to proceed is to (a) print the original PDF, (b) write your answers on the paper, (c) scan your print outs into a NEW PDF file, and finally, (d) submit the NEW PDF file to Gradescope.</p>
+<p>Your assignment file is a PDF with the questions and blank spaces for the answers. The easiest way to proceed is to (a) print the original PDF, (b) write your answers on the paper, (c) scan your print outs into a NEW PDF file, and finally, (d) upload/submit the NEW PDF file to Gradescope.</p>
 
 <p>If you have software that allows you to directly edit a PDF file, you can use that instead of steps (a), (b), and (c) above. This is not usually software we have for students to use, so if you want to go this route, you may have to purchase this PDF-editing software yourself. Again, this is OPTIONAL. It's perfectly fine to go the print-then-scan route described above.</p>
 
 <p>PLEASE NOTE: Not ALL of your assignments will be done this way - some of your assignments will have you submitting actual programs instead of questions. I will give you detailed instructions with programming assignments when that time comes.</p>
 
-<p>Your final step will be to go to Gradescope, select the <b>lab01</b> entry, and submit your NEW PDF. Please call your submitted PDF file <b>lab01.pdf</b>.
+<p>Your final step will be to go to Gradescope, select the <b>lab01</b> entry, and upload/submit your NEW PDF. Please call your submitted PDF file <b>lab01.pdf</b>.
 
 <h2>(Optional) Step 7: Sign Up for CS Department Announcements</h2>
 <p>
