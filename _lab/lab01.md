@@ -95,7 +95,8 @@ chmod 600 lab1.pdf
   <b>If you partnered with someone (it's OPTIONAL - and NO MORE THAN TWO people can work on one assignment together), record the email address they are using for the class at the top of the assignment. EACH person needs to submit their own assignment!</b> 
 </p>
 
-<p>Your assignment file is a PDF with the questions and blank spaces for the answers. The easiest way to proceed is to (a) print the original PDF, (b) write your answers on the paper <b>USING DARK INK</b>i (so it shows up in a scan), (c) scan your print outs into a NEW PDF file (you can still give it the same name), and finally, (d) upload/submit the NEW PDF file to Gradescope.</p>
+<p>Your assignment file is a PDF with the questions and blank spaces for the answers. The easiest way to proceed is to (a) print the original PDF, (b) write your answers on the paper <b><i>USING DARK INK</i></b> (so it shows up in a scan), (c) scan your print outs into a NEW PDF file (you can still give it the same name), and finally, (d) upload/submit the NEW PDF file to Gradescope. It should go without saying that neatness counts: if your scan is unreadable or your handwriting is very
+bad, your assignment may not get graded (i.e. you'd get a zero score).</p>
 
 <p>If you have software that allows you to directly edit a PDF file, you can use that instead of steps (a), (b), and (c) above. This is not usually software we have for students to use, so if you want to go this route, you may have to purchase this PDF-editing software yourself. Again, this is OPTIONAL. It's perfectly fine to go the print-then-scan route described above.</p>
 
