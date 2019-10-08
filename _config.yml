@@ -5,11 +5,13 @@ plugins:
 remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
 
 kramdown:
-  parse_block_html: false
+  parse_block_html: true
 
-exclude: ['vendor', 'setup.sh', 'jekyll.sh']
+  #exclude: ['vendor', 'setup.sh', 'jekyll.sh']
+exclude:
+    - vendor
 include:
-  - _pages
+    - _pages
 
 timezone: America/Los_Angeles
 
