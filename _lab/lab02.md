@@ -7,6 +7,7 @@ assigned: 2019-10-09 14:00:00.00-7
 due: 2019-10-16 23:59:59.00-7
 ---
 <div markdown='1'>
+
 #THIS IS A DRAFT AND A WORK IN PROGRESS! IT IS NOT IN FINAL FORM!!!
 
 #Lab 2: Binary Arithmetic, Bitwise Operators, and MIPS
@@ -299,6 +300,7 @@ Your final step will be to go to Gradescope, select the <b>lab01</b> entry, and 
 ###The program RandomCode.c
 Once you're done with writing your functions, navigate to the Lab assignment "lab02" on Gradescope and upload your `RandomCode.c` file. *Every student must upload their own code*.
 
+</div>
 
 <hr>
 <blockquote>
@@ -306,4 +308,3 @@ Once you're done with writing your functions, navigate to the Lab assignment "la
 Copyright 2019, Ziad Matni, CS Dept, UC Santa Barbara. Permission to copy for non-commercial, non-profit, educational purposes granted, provided appropriate credit is given;  all other rights reserved
 </font></p> 
 </blockquote>
-</div>
