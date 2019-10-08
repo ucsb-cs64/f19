@@ -29,6 +29,7 @@ Trailer 936 is located behind the Phelps building.
 
 * **Lab**: (50 minute sections)<br/>
 Fri. starting at 11 am, 12 pm, 1 pm, PHELP 3525, ATTENDANCE MANDATORY.<br/>
+
 * **Instructor's Policies**: See full syllabus for details.<br/>
 
 <strong>Please read the class syllabus in its entirety.</strong><br/>
