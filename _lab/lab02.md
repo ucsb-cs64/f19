@@ -18,7 +18,7 @@ This is a DRAFT and NOT in FINAL FORM!!!
 <ul>
  <li>Perform bitwise operations</li>
  <li>Know <i>when</i> and <i>how</i> you use bitwise operators in high-level code</li>
- <li>Get an introduction to MIPS and the <a href="http://spimsimulator.sourceforge.net/">QtSpim simulator</a></li>
+ <li>Get an introduction to MIPS and the <a href="http://spimsimulator.sourceforge.net/">SPIM simulator</a></li>
 </ul>
 
 **Provided files:**
@@ -196,96 +196,46 @@ gcc Random*.c
  You are encouraged to add your own tests to this suite.
 </p>
 
-<h2>Task 3: QtSpim Tutorial</h2>
-You are now ready for MIPS!
-For this task, you will need to fill out the <a href="{{'/lab/lab02/spimtutorial.txt' | relative_url }}"><code>spimtutorial.txt</code></a> ques
-You may want to take a look at these questions before you start running the simulator, just to get a handle on exactly what it is you will need to learn.
+<h2>Task 3: SPIM Tutorial</h2>
+This will be a task that you do on the computer, but will NOT be writing anything up about it for THIS assignment. The purpose of this exercise is to familiarize you with SPIM and MIPS assembly language.
 
-<h3>Step 1: Get QtSpim</h3>
-Assuming you are on one of the lab machines, then you might need to copy over QtSpim from <code>csil</code>. Check this out first and see if you can run QtSpim from the lab machine. Otherwise, to copy it over, do what is shown below, but substitute <code>username</code> with your username:
+SPIM is a program that ***simualtes*** the MIPS CPU assembler. We don't have to buy a MIPS chipset or computer board in order to learn assembly language! We just have to simulate the hardware via software!
 
-```
-scp username@csil-01.cs.ucsb.edu:/usr/bin/QtSpim .
-```
-Then enter your password at the prompt.
+<h3>Step 1: Get SPIM</h3>
+If you are on one of the CSIL lab machines, the SPIM simulator program should be available (you can make sure by typing <code>which spim</code> at a UNIX prompt, which will tell you where it's installed.
 
-In case you have an issue with the above command, a version of <code>QtSpim</code> can also be copied directly from the course webpage, like so:
+However, you may want to install SPIM on your home machine as well. In order to do so, you will want to go to the developer's page at http://spimsimulator.sourceforge.net and follow directions to download it. The way we will be using SPIM is via the UNIX command line. We will develop our programs in a text file (with the .asm suffix) and then run them on SPIM as such:
 
 ```
-cp ~zmatni/public_html/cs64f19/resources/QtSpim .
+spim -f filename.asm
 ```
 
-If it still does not work, then try to download the source file from the program developer at: http://pages.cs.wisc.edu/~larus/spim.html
+Check out the sample program we have <a href="{{'mipsdemo.asm' | relative_url }}">here</a> called **mipsdemo.asm**. Start by viewing the program (either on a web browser or using a text editor like **emacs** or **vim**). It might not make much sense! That's ok, however, because we will become very familiar with this sort of programming in class!
 
-<h3>Step 2: Load the Demonstration Program</h3>
-
-Type:
+Run the program like this from the UNIX prompt (once you've installed SPIM, of course):
 
 ```
-./QtSpim
+spim -f mipsdemo.asm
 ```
 
-...to begin the simulator.
-Once that is loaded, go to File --> Load File to load the demo program <code>mipsdemo.asm</code>.
+**What do you see happening? How different would a program like this written in C++ or Java or Python look?!**
 
-**Understanding the Screens:**
-
-The left box shows the values in the registers at any given time.
-So, when you are asked what value was in a certain register at a certain time, you can advance to that instruction using breakpoints and stepping, and when it gets to the right instruction, look at the register in question.
-
- The right box shows the text segment, which contains all of the program instructions.
- As you are stepping along, you can see what instruction is executing.
- This is also how you can see where the program starts.
- The left column of that screen tells the address of the instruction.
- The next column shows the hexadecimal representation of the actual instruction.
- The 3rd column shows what the machine receives as the instruction, and the fourth column shows what the original MIPS instruction was.
- We will learn more about these parts in class later.
-
- The right box also shows the data segments if you choose the <code>Data</code> tab.
- Here you can see the global variables that were declared in the data segment.
- The left-hand column shows the address of the beginning of that set of data.
- If you click on <code>Data</code> now, you will recognize all of the strings that are being used to print out data.
-
-<h3>Step 3: Set a Breakpoint</h3>
-First, make sure the <code>Text</code> tab is highlighted.
-Look at the instruction that says:
-
-```
-jal 0x00400024 [main]
-```
-
- This means that the first instruction of <code>main</code> is located at address <code>0x00400024</code>.
- The left-hand column shows the address of each instruction.
- Locate the one with that address (<code>ori $2, $0, 4</code>).
- Right click on it and choose <code>Set Breakpoint</code>.
- If it works, a red indicator will show up to the left of the address.
-
-<h3>Step 4: Step Through Code</h3>
-Click on the green arrow (the &ldquo;play&rdquo; button) to start running the code.
-When it gets to the breakpoint you set in the previous step and asks if you want to continue, cluck <code>Single Step</code>.
-
-To advance a single single instruction, click the 1-2-3 numbered list, or press <code>F10</code> on your keyboard.
-Do this to confirm the answers you get from inspecting the code.
-
-You are being exposed to a **lot** of new material in a very short amount of time here, and it can be quite overwhelming at first.
-Keep in mind that you are learning not only a new language, but a new way of thinking, along with a new tool (QtSpim).
+Keep in mind that you are learning not only a new language, but a new way of thinking, along with a new tool (SPIM).
 Most of all, you have been doing this for only very recently - if this feels difficult, it is because it *is* difficult.
 If you want to read more, or just have more potentially helpful information in your grasp, the links below may be of some assistance:
 
 <ul>
  <li>
    For understanding the MIPS instructions themselves, it may be helpful to consult the MIPS reference card in the front of the textbook.
-   A digital copy is also available <a href="{{'/lab/documentation/MIPS_reference_card.pdf' | relative_url }}">here</a>.
+   A digital copy is also available <a href="{{'/lab/documentation/MIPS_reference_card.pdf' | relative_url }}">here</a>. We will become very familiar with this document in class over the next couple of weeks.
  </li>
- <li>For a basic understanding of how the <code>syscall</code> instruction works in SPIM (which is used by QtSpim), see <a href="https://www.doc.ic.ac.uk/lab/secondyear/spim/node8.html">this page</a>.</li>
- <li>For a detailed amount of information regarding SPIM (which is used by QtSpim), particularly the terminal interface, you may want to consult <a href="{{'/lab/documentation/spim.pdf' | relative_url }}">this manual</a>.</li>
- <li>
-   For general background specific to QtSpim, a nice tutorial can be found <a href="https://www.lri.fr/~de/QtSpim-Tutorial.pdf">here</a>.
-   Overall, there are a *lot* of QtSpim tutorials out there if you are interested; a quick Google search of &ldquo;qtspim tutorial&rdquo; reveals quite a bunch.
- </li>
+ <li>For further understanding of how the <code>syscall</code> instruction works in SPIM, see <a href="https://www.doc.ic.ac.uk/lab/secondyear/spim/node8.html">this page</a>.</li>
+ <li>For a detailed amount of information regarding SPIM, particularly the terminal interface, you may want to consult <a href="{{'/lab/documentation/spim.pdf' | relative_url }}">this manual</a>.</li>
 </ul>
 
 <h2>Turn in Everything Using Gradescope</h2>
+You are going to turn in TWO things into Gradescope: the exercises in the PDF file *AND* the C/C++ program you wrote.
+
 <h3>The lab02.pdf file:</h3>
 **If you partnered with someone (it's OPTIONAL - and NO MORE THAN TWO people can work on one assignment together), record the email address they are using for the class at the top of the assignment. EACH person needs to submit their own assignment!**
 
@@ -298,6 +248,8 @@ Your final step will be to go to Gradescope, select the <b>lab01</b> entry, and 
 
 <h3>The program RandomCode.c</h3>
 Once you're done with writing your functions, navigate to the Lab assignment "lab02" on Gradescope and upload your `RandomCode.c` file. *Every student must upload their own code*.
+
+**That's all for this assignment!**
 
 </div>
 
