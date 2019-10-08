@@ -7,7 +7,8 @@ assigned: 2019-10-09 14:00:00.00-7
 due: 2019-10-16 23:59:59.00-7
 ---
 
-<div markdown="1">
+First line
+
 #THIS IS A DRAFT AND A WORK IN PROGRESS! IT IS NOT IN FINAL FORM!!!
 
 x
@@ -15,4 +16,4 @@ x
 ##Lab 2: Binary Arithmetic, Bitwise Operators, and MIPS
 
 Due now
-</div>
+
