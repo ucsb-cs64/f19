@@ -21,10 +21,11 @@ Office: SSMS 4409<br/><br/>
 
 | **TA** | **Email** | **Office Hours** |
 |---|---|---|
-| Cagri Uslu | <cagri@ucsb.edu> | office hours: TBA
-| Kunlong Liu | <kunlongliu@ucsb.edu> | office hours: TBA
+| Cagri Uslu | <cagri@ucsb.edu> | office hours: 3 - 5 PM in Trailer 936
+| Kunlong Liu | <kunlongliu@ucsb.edu> | office hours: 5 - 7 PM in Trailer 936
 
-<!-- | Bay-Yuan Hsu | <bhsu@umail.ucsb.edu> | Fri. 11 AM - 1 PM, Trailer 936 | -->
+Trailer 936 is located behind the Phelps building.
+
 
 * **Lab**: (50 minute sections)<br/>
 Fri. starting at 11 am, 12 pm, 1 pm, PHELP 3525, ATTENDANCE MANDATORY.<br/>
