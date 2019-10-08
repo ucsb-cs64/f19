@@ -2,15 +2,19 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
+remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme@pcfix
 
 kramdown:
-  parse_block_html: false
+  parse_block_html: true
 
-exclude: ['vendor', 'setup.sh', 'jekyll.sh']
 include:
   - _pages
-
+exclude:
+  - .sass-cache
+  - Gemfile
+  - LICENSE
+  - .bundle
+  
 timezone: America/Los_Angeles
 
 url: https://ucsb-cs64.github.io
