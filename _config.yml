@@ -5,17 +5,12 @@ plugins:
 remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
 
 kramdown:
-  parse_block_html: true
+  parse_block_html: false
 
+exclude: ['vendor', 'setup.sh', 'jekyll.sh']
 include:
   - _pages
-exclude:
-  - .sass-cache
-  - Gemfile
-  - LICENSE
-  - .bundle
-  - vendor
-  
+
 timezone: America/Los_Angeles
 
 url: https://ucsb-cs64.github.io
@@ -81,3 +76,8 @@ defaults:
       type: info
     values:
       layout: handout
+
+head_scripts: 
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - /static/js/select_section.js
+
