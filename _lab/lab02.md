@@ -37,13 +37,13 @@ This is a DRAFT and NOT in FINAL FORM!!!
 </ul>
 
 <hr>
-##Step by Step Instructions
+<h2>Step by Step Instructions</h2>
 <p>
  The initial step below describes how to get the files you will need into the appropriate place.
  These files are used for all the different tasks.
 </p>
 
-###Initial Step: Create a Directory for This Lab and Copy Over the Files
+<h3>Initial Step: Create a Directory for This Lab and Copy Over the Files</h3>
 <p>After you log in, go into your <code>cs64</code> directory that you created last time:</p>
 ```
 cd cs64
@@ -77,17 +77,17 @@ chmod 664 *
 * Do the Bitwise Operations in C/C++ problems described below. Submit your solution code (as a .c file) to Gradescope (autograder).
 * Do the intro to MIPS exercise described below.
 
-##Task 1: Binary Addition and Bit-Level Operations
+<h2>Task 1: Binary Addition and Bit-Level Operations</h2>
 <p>This task entails answering a series of questions focused on bit-level operations.</p>
 <p>Open the file <a href="{{'/lab/lab02/lab02.pdf' | relative_url }}">lab02.pdf</a> and answer the questions, just as with Lab 1.</p>
 
-##Task 2: Bitwise Operations in C/C++
+<h2>Task 2: Bitwise Operations in C/C++</h2>
 <p>In this task, you will write some high-level language code using C/C++ bitwise logic operations.
 
-##Task 3: Intro to MIPS
+<h2>Task 3: Intro to MIPS</h2>
 
 
-###Step 1: Familiarizing Yourself With the Files and Compilation Process
+<h3>Step 1: Familiarizing Yourself With the Files and Compilation Process</h3>
 <p>
  There should be three files in your directory starting with the word <code>Random</code>.
  List just those files:
@@ -130,7 +130,7 @@ Another way you could do this is:
 gcc Random*.c
 ```
 
-###Step 2: Implementing Bit-Level Manipulation Routines
+<h3>Step 2: Implementing Bit-Level Manipulation Routines</h3>
 <p>**You will only be turning in <code>RandomCode.c</code>** - we are going to provide the <code>.h</code> file and any test files for our test cases. I have provided the main so that you can test your files individually. Make sure you **do not edit <code>RandomCode.h</code>**. If you edit that file, then your solution will not work with our test cases.
 </p>
 
@@ -196,12 +196,12 @@ gcc Random*.c
  You are encouraged to add your own tests to this suite.
 </p>
 
-##Task 3: QtSpim Tutorial
+<h2>Task 3: QtSpim Tutorial</h2>
 You are now ready for MIPS!
 For this task, you will need to fill out the <a href="{{'/lab/lab02/spimtutorial.txt' | relative_url }}"><code>spimtutorial.txt</code></a> ques
 You may want to take a look at these questions before you start running the simulator, just to get a handle on exactly what it is you will need to learn.
 
-###Step 1: Get QtSpim
+<h3>Step 1: Get QtSpim</h3>
 Assuming you are on one of the lab machines, then you might need to copy over QtSpim from <code>csil</code>. Check this out first and see if you can run QtSpim from the lab machine. Otherwise, to copy it over, do what is shown below, but substitute <code>username</code> with your username:
 
 ```
@@ -217,7 +217,7 @@ cp ~zmatni/public_html/cs64f19/resources/QtSpim .
 
 If it still does not work, then try to download the source file from the program developer at: http://pages.cs.wisc.edu/~larus/spim.html
 
-###Step 2: Load the Demonstration Program
+<h3>Step 2: Load the Demonstration Program</h3>
 
 Type:
 
@@ -228,7 +228,7 @@ Type:
 ...to begin the simulator.
 Once that is loaded, go to File --> Load File to load the demo program <code>mipsdemo.asm</code>.
 
-####Understanding the Screens
+**Understanding the Screens:**
 
 The left box shows the values in the registers at any given time.
 So, when you are asked what value was in a certain register at a certain time, you can advance to that instruction using breakpoints and stepping, and when it gets to the right instruction, look at the register in question.
@@ -246,7 +246,7 @@ So, when you are asked what value was in a certain register at a certain time, y
  The left-hand column shows the address of the beginning of that set of data.
  If you click on <code>Data</code> now, you will recognize all of the strings that are being used to print out data.
 
-###Step 3: Set a Breakpoint
+<h3>Step 3: Set a Breakpoint</h3>
 First, make sure the <code>Text</code> tab is highlighted.
 Look at the instruction that says:
 
@@ -260,7 +260,7 @@ jal 0x00400024 [main]
  Right click on it and choose <code>Set Breakpoint</code>.
  If it works, a red indicator will show up to the left of the address.
 
-###Step 4: Step Through Code
+<h3>Step 4: Step Through Code</h3>
 Click on the green arrow (the &ldquo;play&rdquo; button) to start running the code.
 When it gets to the breakpoint you set in the previous step and asks if you want to continue, cluck <code>Single Step</code>.
 
@@ -285,8 +285,8 @@ If you want to read more, or just have more potentially helpful information in y
  </li>
 </ul>
 
-##Turn in Everything Using Gradescope
-###The lab02.pdf file:
+<h2>Turn in Everything Using Gradescope</h2>
+<h3>The lab02.pdf file:</h3>
 **If you partnered with someone (it's OPTIONAL - and NO MORE THAN TWO people can work on one assignment together), record the email address they are using for the class at the top of the assignment. EACH person needs to submit their own assignment!**
 
 Your assignment file is a PDF with the questions and blank spaces for the answers. The easiest way to proceed is to (a) print the original PDF, (b) write your answers on the paper ***USING DARK INK*** (so it shows up in a scan), (c) scan your print outs into a NEW PDF file (you can still give it the same name), and finally, (d) upload/submit the NEW PDF file to Gradescope. It should go without saying that neatness counts: if your scan is unreadable or your handwriting is very
@@ -296,7 +296,7 @@ If you have software that allows you to directly edit a PDF file, you can use th
 
 Your final step will be to go to Gradescope, select the <b>lab01</b> entry, and upload/submit your NEW PDF. Please call your submitted PDF file **lab02.pdf**.
 
-###The program RandomCode.c
+<h3>The program RandomCode.c</h3>
 Once you're done with writing your functions, navigate to the Lab assignment "lab02" on Gradescope and upload your `RandomCode.c` file. *Every student must upload their own code*.
 
 </div>
