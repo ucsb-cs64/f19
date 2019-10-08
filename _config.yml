@@ -14,6 +14,7 @@ exclude:
   - Gemfile
   - LICENSE
   - .bundle
+  - vendor
   
 timezone: America/Los_Angeles
 
@@ -31,7 +32,6 @@ start_week: 1
 start_date: 2019-09-29 00:00:00.00-8:00
 num_weeks: 10
 extra_exam_week: true
-sections:
 
 cal_dates: >
   [
