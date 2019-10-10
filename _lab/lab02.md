@@ -83,6 +83,7 @@ chmod 664 *
 <h2>Task 2: Bitwise Operations in C/C++</h2>
 <p>In this task, you will write some high-level language code using C/C++ bitwise logic operations.
 
+
 <h2>Task 3: Intro to MIPS</h2>
 
 
