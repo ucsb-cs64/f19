@@ -81,7 +81,7 @@ chmod 664 *
 <p>Open the file <a href="{{'/lab/lab02/lab02.pdf' | relative_url }}">lab02.pdf</a> and answer the questions, just as with Lab 1.</p>
 
 <h2>Task 2: Bitwise Operations in C/C++</h2>
-<p>In this task, you will write some high-level language code using C/C++ bitwise logic operations.
+<p>In this task, you will write some high-level language code using C/C++ bitwise logic operations.</p>
 
 
 <h2>Task 3: Intro to MIPS</h2>
