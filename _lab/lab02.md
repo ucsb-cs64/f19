@@ -85,7 +85,7 @@ chmod 664 *
 
 
 <h2>Task 3: Intro to MIPS</h2>
-
+Let's start with familiarizing yourself with the basics of the process, then we'll get into specifics.
 
 <h3>Step 1: Familiarizing Yourself With the Files and Compilation Process</h3>
 <p>
