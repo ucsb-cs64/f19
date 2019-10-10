@@ -85,9 +85,9 @@ chmod 664 *
 
 
 <h2>Task 3: Intro to MIPS</h2>
-Let's start with familiarizing yourself with the basics of the process, then we'll get into specifics.
+Let's start with familiarizing ourselves with the basics of the process, then we'll get into specifics.
 
-<h3>Step 1: Familiarizing Yourself With the Files and Compilation Process</h3>
+**Step 1: Familiarizing Yourself With the Files and Compilation Process**
 <p>
  There should be three files in your directory starting with the word <code>Random</code>.
  List just those files:
@@ -130,7 +130,8 @@ Another way you could do this is:
 gcc Random*.c
 ```
 
-<h3>Step 2: Implementing Bit-Level Manipulation Routines</h3>
+**Step 2: Implementing Bit-Level Manipulation Routines**
+
 <p>**You will only be turning in <code>RandomCode.c</code>** - we are going to provide the <code>.h</code> file and any test files for our test cases. I have provided the main so that you can test your files individually. Make sure you **do not edit <code>RandomCode.h</code>**. If you edit that file, then your solution will not work with our test cases.
 </p>
 
