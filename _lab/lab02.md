@@ -22,6 +22,7 @@ due: 2019-10-16 23:59:59.00-7
 
 **Provided files:**
 <ul>
+ <li><a href="{{'/lab/lab02/lab02.pdf' | relative_url }}"><code>lab02.pdf</code></a></li>
  <li><a href="{{'/lab/lab02/DecodeCode.h' | relative_url }}"><code>DecodeCode.h</code></a></li>
  <li><a href="{{'/lab/lab02/DecodeCode.c' | relative_url }}"><code>DecodeCode.c</code></a></li>
  <li><a href="{{'/lab/lab02/DecodeMain.c' | relative_url }}"><code>DecodeMain.c</code></a></li>
