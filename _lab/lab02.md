@@ -250,7 +250,7 @@ If you have software that allows you to directly edit a PDF file, you can use th
 Your final step will be to go to Gradescope, select the <b>lab02</b> entry, and upload/submit your NEW PDF. Please call your submitted PDF file **lab02.pdf**.
 
 <h3>The program RandomCode.c</h3>
-Once you're done with writing your functions, navigate to the Lab assignment "lab02 - Code" on Gradescope and upload your `RandomCode.c` file. *Every student must upload their own code*.
+Once you're done with writing your functions, navigate to the Lab assignment **lab02 - Code** on Gradescope and upload your `RandomCode.c` file. *Every student must upload their own code*.
 
 **That's all for this assignment!**
 
