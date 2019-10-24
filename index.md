@@ -20,7 +20,7 @@ Questions? Post them on Piazza!
 
 ## Labs
 
-NOTE: All labs must be submitted using turnin, unless specified otherwise.
+NOTE: All labs must be submitted using Gradescope, unless specified otherwise.
 
 {% include lab_table.html %}
 
