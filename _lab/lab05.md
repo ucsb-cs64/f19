@@ -27,7 +27,6 @@ due: 2019-11-08 23:59:59.00-7
   <li><a href="{{'/lab/lab05/iterative_max.asm' | relative_url }}"><code>iterative_max.asm</code></a></li>
   <li><a href="{{'/lab/lab05/iterative_max_testing_stub.asm' | relative_url }}"><code>iterative_max_testing_stub.asm</code></a></li>
   <li><a href="{{'/lab/lab05/iterative_max_tester.pl' | relative_url }}"><code>iterative_max_tester.pl</code></a></li>
-  <li><a href="{{'/lab/lab05/partner.txt' | relative_url }}"><code>partner.txt</code></a></li>
 </ul>
 
 <b>Documentation:</b>
