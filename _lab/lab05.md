@@ -178,6 +178,7 @@ gcc Decode*.c
   To help clarify which output you need to produce and which output is produced for you, output you <b>must</b> produce is marked in <b>bold</b>.
 </p>
 <pre>
+
 Current Array:
 0 1 -1 5 32 6 -66 33 12 58 -4 64 
 <b>64</b>
@@ -267,6 +268,7 @@ jal ConventionCheck
   To help clarify which output you need to produce and which output is produced for you, output you <b>must</b> produce is marked in <b>bold</b>.
 </p>
 <pre>
+
 Current Array:
 0 1 -1 5 32 6 -66 33 12 58 -4 64 
 <b>0</b>
