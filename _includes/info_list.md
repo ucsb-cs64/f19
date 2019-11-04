@@ -1,5 +1,5 @@
 * [Midterm Practice Exam]({{'/info/midtermPE.pdf' | relative_url }})
-*
+* []
 * [Calendar]({{'/info/calendar' | relative_url }})
 * [Syllabus]({{'/info/syllabus' | relative_url }})
 * [Demo code used in lecture](http://cs.ucsb.edu/~zmatni/cs64f19/demos/)
