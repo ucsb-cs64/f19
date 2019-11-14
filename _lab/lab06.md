@@ -21,7 +21,7 @@ due: 2019-11-20 17:00:00.00-7
 <b>Provided files:</b>
 <p>A PDF file is located <a href="lab06.pdf"><b>HERE</b></a>. Follow the instructions within.</p>
 
-<h3>The lab06.pdf file:</h3>
+<b>The lab06.pdf file:</b>
 **If you partnered with someone (it's OPTIONAL - and NO MORE THAN TWO people can work on one assignment together), record the email address they are using for the class at the top of the assignment. EACH person needs to submit their own assignment!**
 
 Your assignment file is a PDF with the questions and blank spaces for the answers. The easiest way to proceed is to (a) print the original PDF, (b) write your answers on the paper ***USING DARK INK*** (so it shows up in a scan), (c) scan your print outs into a NEW PDF file (you can still give it the same name), and finally, (d) upload/submit the NEW PDF file to Gradescope. It should go without saying that neatness counts: if your scan is unreadable or your handwriting is very
