@@ -19,7 +19,7 @@ due: 2019-11-20 17:00:00.00-7
 </ul>
 
 <b>Provided files:</b>
-<p>A PDF file is located <a href="lab06.pdf"><b>HERE</b></a>. Follow the instructions within.
+<p>A PDF file is located <a href="lab06.pdf"><b>HERE</b></a>. Follow the instructions within.</p>
 
 <h3>The lab06.pdf file:</h3>
 **If you partnered with someone (it's OPTIONAL - and NO MORE THAN TWO people can work on one assignment together), record the email address they are using for the class at the top of the assignment. EACH person needs to submit their own assignment!**
