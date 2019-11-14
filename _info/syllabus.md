@@ -21,8 +21,8 @@ Office: SSMS 4409<br/><br/>
 
 | **TA** | **Email** | **Office Hours** |
 |---|---|---|
-| Cagri Uslu | <cagri@ucsb.edu> | office hours: 3 - 5 PM in Trailer 936
-| Kunlong Liu | <kunlongliu@ucsb.edu> | office hours: 5 - 7 PM in Trailer 936
+| Cagri Uslu | <cagri@ucsb.edu> | office hours: TUE. 3 - 5 PM in Trailer 936
+| Kunlong Liu | <kunlongliu@ucsb.edu> | office hours: TUE. 5 - 7 PM in Trailer 936
 
 Trailer 936 is located behind the Phelps building.
 
