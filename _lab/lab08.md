@@ -1,6 +1,6 @@
 ---
 layout: lab
-num: lab07
+num: lab08
 ready: true
 desc: "Designing Simplified Parts of a CPU"
 assigned: 2019-11-27 08:00:00.00-7
