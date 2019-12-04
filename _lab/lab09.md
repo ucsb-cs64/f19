@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab09
-ready: false
+ready: true
 desc: "Ethics in CS ; Social Impact of CS"
 assigned: 2019-12-4 08:00:00.00-7
 due: 2019-12-6 17:00:00.00-7
